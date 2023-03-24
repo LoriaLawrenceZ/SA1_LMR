@@ -41,6 +41,11 @@ nav a{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
+
+    transition: .3s;
+}
+nav a:hover{
+    transition: .3s;
 }
 
 /*----Pesquisa----*/
@@ -55,11 +60,17 @@ nav a{
 }
 .situacao-fs, .estado-fs, .cidade-fs, .tipo-fs, .pesquisar-fs{
     border: none;
+
+    text-align: center;
+    width: 20%;
 }
 #status{
+    line-height: 30px;
+    
+    text-align: center;
+    color: white;
+
     background-color: red;
-    width: 150%;
-    height: 140%;
 }
 /*----Destaque----*/
 .destaque{
