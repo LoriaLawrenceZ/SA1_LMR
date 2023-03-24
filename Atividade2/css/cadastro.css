@@ -1,0 +1,58 @@
+.form-container{
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: rgb(83, 46, 0)
+}
+
+.form-container h1{
+    height: 20%;
+    text-align: center;
+}
+
+.form{
+    height: 50%;
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: none;
+}
+
+.no{
+    width: 100%;
+}
+#nome{
+    width: 100%;
+}
+
+.c{
+    width: 25%;
+}
+#cpf{
+    width: 100%;
+}
+
+.en{
+    width: 50%;
+}
+#endereco{
+    width: 100%;
+}
+
+.ni{
+    width: 25%;
+}
+#nivel{
+    width: 100%;
+}

@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+html{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header{
+    background-color: rgb(121, 121, 121);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+figure{
+    width: 100%;
+    text-align: center;
+
+    background-color: rgb(53, 53, 53);
+}
+.img-logo{
+    height: 6em;
+
+    filter: invert();
+}
+
+nav{
+    height: 3em;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+/*----Pesquisa----*/
+.pesquisa{
+    height: 10em;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background-color: rgb(221, 221, 221);
+}
+.situacao-fs, .estado-fs, .cidade-fs, .tipo-fs, .pesquisar-fs{
+    border: none;
+}
+#status{
+    background-color: red;
+    width: 150%;
+    height: 140%;
+}
+/*----Destaque----*/
+.destaque{
+    height: 30em;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background-color: rgb(245, 245, 245);
+}
+.destaque h1{
+    color: black;
+
+    align-self: center;
+    width: 95%;
+    height: 10%;
+}
+
+.casas{
+    width: 100%;
+    height: 20em;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.casa1, .casa2, .casa3{
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+.casa1 img, .casa2 img, .casa3 img{
+    height: 100%;
+}

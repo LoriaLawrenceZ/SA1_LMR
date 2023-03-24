@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatu - Cadastro</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="../img/tatuLogo.png" alt="" class="img-logo">
+        </figure>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="cadastro.html">CADASTRO</a>
+            <a href="login.html">LOGIN</a>
+        </nav>
+    </header>
+
+    <main>
+        <span class="podeisso"></span>
+
+        <article class="form-container">
+            <h1>Novo Usuário</h1>
+
+            <form action="mailto:lorenzo.zimbres@senaisp.edu.br" method="POST" class="form">
+                <fieldset class="no">
+                    <label for="nome" class="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                </fieldset>
+
+                <fieldset class="c">
+                    <label for="cpf" class="cpf">CPF:</label>
+                    <input type="text" name="cpf" id="cpf">
+                </fieldset>
+                
+                <fieldset class="en">
+                    <label for="endereco" class="endereco">Endereço:</label>
+                    <input type="text" name="endereco" id="endereco">
+                </fieldset>
+                
+                <fieldset class="ni">
+                    <label for="nivel" class="nivel">Nível:</label>
+                    <select name="nivel" id="nivel">
+                        <option value="none">-----</option>
+                        <option value="casa">Casa</option>
+                        <option value="sitio">Sítio</option>
+                        <option value="apt">Apartamento</option>
+                    </select>
+                </fieldset>
+    
+
+                <fieldset class="em">
+                    <label for="email" class="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                </fieldset>
+
+                <fieldset class="se">
+                    <input type="password" name="senha" id="senha">
+                    <label for="senha" class="senha">Senha:</label>
+                </fieldset>
+
+                <fieldset class="st">
+                    <label for="status" class="status">Status:</label>
+                    <select name="status" id="status">
+                        <option value="none">-----</option>
+                        <option value="ativo">Ativo</option>
+                        <option value="Inativo">Inativo</option>
+                    </select>
+                </fieldset>
+
+                <fieldset class="ec">
+                    <input type="submit" value="Enviar" class="enviar">
+                    <input type="reset" value="Cancelar" class="cancelar">
+                </fieldset>
+            </select>
+            </form>
+        </article>
+    </main>
+</body>
+
+</html>

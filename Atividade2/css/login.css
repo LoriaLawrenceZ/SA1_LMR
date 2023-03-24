@@ -1,0 +1,63 @@
+.form-container{
+    height: 90%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+    background-color: rgb(83, 46, 0);
+}
+.form-container h1{
+    height: 20%;
+    text-align: center;
+}
+
+.form{
+    height: 50%;
+    width: 50%;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    border: none;
+}
+
+.e{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#email{
+    width: 100%;
+}
+
+.s{
+    height: 30%;
+    width: 100%;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#senha{
+    width: 100%;
+}
+
+.ec{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}

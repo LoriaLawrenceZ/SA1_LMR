@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{margin: 0; padding: 0;}
+
+html{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+header{
+    background-color: rgb(83, 46, 0);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.img-logo{
+    height: 2em;
+
+    filter: invert();
+}
+
+main{
+    height: 30em;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.podeisso{
+    height: 10%;
+    width: 100%;
+}
+
+/*----Formulário----
+
+.n{
+    width: 100%;
+}
+.nome, #nome{
+    width: 100%;
+}
+
+.cen{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cpf, #cpf{
+    width: 20%;
+}
+.endereco, #endereco{
+    width: 50%;
+}
+.nivel, #nivel{
+    width: 20%;
+}
+
+.ess{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.email, #email{
+    width: 50%;
+}
+.senha, #senha{
+    width: 30%;
+}
+.status, #status{
+    width: 30%;
+}
+
+.e{
+    width: 100%;
+}
+.s{
+    width: 100%;
+}
+
+.ec{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+.enviar, .cancelar{
+    width: 10%;
+}
+*/
